@@ -35,28 +35,33 @@ public class Sketch extends PApplet {
 
     // Stroke settings for house
     strokeWeight(0);
-    fill(171, 50, 70);
+    fill(105, 27, 22);
     stroke(255);
 
     //house
     rect(100, 178, 200, 200);
-
+    
     //Chimney
     rect(240, 100, 40, 70);
-    
+
     //colour settings for roof
-    fill(82, 30, 7);
+    fill(79, 30, 2);
 
     //Roof
     triangle(50, 208, 350, 208, 200, 100);
-
-    
 
     // Stroke setting for window
     fill(145, 234, 330);
 
     //window
     ellipse( 200, 170, 30, 30);
+
+    //stroke setting for sun
+    fill(255, 242, 0);
+
+    //sun
+    ellipse(400, 0, 100, 100);
+    
 
 
   }
